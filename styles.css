@@ -1,0 +1,98 @@
+body{
+    font-family: Tahoma;
+}
+
+#main-container{
+    margin: 20px auto;
+    width: 600;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+
+th, td{
+    padding: 0px;
+}
+
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+span{
+  
+
+        font-family: Garamond;
+        font-size: 300%;
+    
+}
+
+h2{
+  
+
+    font-family: Verdana;
+    font-size: 150%;
+
+}
+section{
+   
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/771/729/small/abstract-gradient-background-with-green-color-spotlight-pattern-illustration-free-vector.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #6699;
+
+}   
+.icono-placeholder{
+
+    width: 30%;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 400; 
+    content: "\f007";
+}
+
+.btn{
+
+    display: inline-block;
+    background-color: #0F362D;
+    color: blueviolet;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 25px;
+
+}
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .modal-open .container-fluid,
+  .modal-open .container {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+  }
+
+  .modal-open .container-fluid,
+.modal-open .container {
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
